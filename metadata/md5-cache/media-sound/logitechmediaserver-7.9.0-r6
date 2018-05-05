@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst preinst setup unpack
+DEFINED_PHASES=config install postinst preinst setup unpack
 DEPEND=!media-sound/squeezecenter !media-sound/squeezeboxserver !media-sound/logitechmediaserver-bin virtual/logger virtual/mysql avahi? ( net-dns/avahi ) >=dev-perl/common-sense-2.01
 DESCRIPTION=Logitech Media server
 EAPI=5
