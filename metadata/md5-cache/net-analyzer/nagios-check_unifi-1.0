@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=UniFi Monitoring Plugin for Nagios/Icinga
+EAPI=5
+HOMEPAGE=https://github.com/msweetser/check_unifi/
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=dev-python/unifi
+SLOT=0
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_md5_=30f5010585b1a6ef65ba3fab3199362a
