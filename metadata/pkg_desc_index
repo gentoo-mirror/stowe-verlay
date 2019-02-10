@@ -1,5 +1,8 @@
+dev-perl/Audio-Scan 1.01: Fast C metadata and tag reader for all common audio file formats
+dev-perl/Nagios-Plugin 0.990001: Removed from CPAN by request of Nagios Enterprises, succeeded by Monitoring::Plugin
 dev-perl/Network-IPv4Addr 0.05: Perl extension for manipulating IPv4 addresses.
-dev-perl/Text-Unidecode 1.23: Text::Unidecode -- plain ASCII transliterations of Unicode text
+dev-perl/SCGI 0.6: SCGI
+dev-perl/Text-Unidecode 1.23 1.30: Text::Unidecode -- plain ASCII transliterations of Unicode text
 dev-perl/Tie-RegexpHash 0.17: Use regular expressions as hash keys
 net-fs/samba 4.8.6-r3: Samba Suite Version 4
 net-fs/winexe 4.8.6: Winexe Version 4
