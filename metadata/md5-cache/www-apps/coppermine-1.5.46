@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/httpd-php dev-lang/php[gd,mysql] >=app-admin/webapp-config-1.50.15
 SLOT=1.5.46
 SRC_URI=https://downloads.sourceforge.net/project/coppermine/Coppermine/1.5.x/cpg1.5.46.zip
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	2352c3fc97241f6a02042773c8287748	webapp	6ae2395d7f341093c36057cb4f69101a
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	2352c3fc97241f6a02042773c8287748	webapp	16783e418aca3ffa461d68310bf7ab12
 _md5_=34adcb8aa069603ddd2d45aaaac095f5
