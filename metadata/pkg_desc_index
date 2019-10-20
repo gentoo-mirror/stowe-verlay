@@ -7,6 +7,7 @@ dev-perl/Text-Unidecode 1.23 1.30: Text::Unidecode -- plain ASCII transliteratio
 dev-perl/Tie-RegexpHash 0.17: Use regular expressions as hash keys
 dev-python/nameparser 0.5.7: nameparser library for Python
 dev-python/pyunifi 2.14: Unifi API library for Python
+media-gfx/imagemagick 7.0.8.68: A collection of tools and libraries for many image formats
 media-sound/logitechmediaserver 7.9.0-r6 7.9.2 7.9.2-r1: Logitech Media server
 net-analyzer/nagios-check_disk_btrfs 2.1.1: Brtfs Monitoring Plugin for Nagios/Icinga
 net-analyzer/nagios-check_unifi 1.0: UniFi Monitoring Plugin for Nagios/Icinga
