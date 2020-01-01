@@ -1,10 +1,14 @@
-app-emulation/phpvirtualbox 5.2.0 5.2.0-r1 5.2.1: Web-based administration for VirtualBox in PHP
+app-crypt/certbot-dns-cloudflare 0.40.1: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
+app-emulation/phpvirtualbox 5.2.0 5.2.0-r1 5.2.1 6.1.0: Web-based administration for VirtualBox in PHP
 dev-perl/Audio-Scan 0.930.0 1.01: Fast C metadata and tag reader for all common audio file formats
 dev-perl/Nagios-Plugin 0.990001: Removed from CPAN by request of Nagios Enterprises, succeeded by Monitoring::Plugin
 dev-perl/Network-IPv4Addr 0.05: Perl extension for manipulating IPv4 addresses.
 dev-perl/SCGI 0.6: SCGI
 dev-perl/Text-Unidecode 1.23 1.30: Text::Unidecode -- plain ASCII transliterations of Unicode text
+dev-perl/Tie-Persistent 1.00: persistent data structures via tie made easy
 dev-perl/Tie-RegexpHash 0.17: Use regular expressions as hash keys
+dev-python/cloudflare 2.3.1: Python wrapper for the Cloudflare v4 API
+dev-python/jsonlines 1.2.0: Library with helpers for the jsonlines file format
 dev-python/nameparser 0.5.7: nameparser library for Python
 dev-python/pyunifi 2.14: Unifi API library for Python
 media-gfx/imagemagick 7.0.8.68: A collection of tools and libraries for many image formats
