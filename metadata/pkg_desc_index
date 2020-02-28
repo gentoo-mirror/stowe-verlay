@@ -1,4 +1,4 @@
-app-crypt/certbot-dns-cloudflare 0.40.1 1.0.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
+app-crypt/certbot-dns-cloudflare 0.40.1 1.0.0 1.1.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-emulation/phpvirtualbox 5.2.0 5.2.0-r1 5.2.1 6.1.0: Web-based administration for VirtualBox in PHP
 dev-perl/Audio-Scan 0.930.0 1.01: Fast C metadata and tag reader for all common audio file formats
 dev-perl/Nagios-Plugin 0.990001: Removed from CPAN by request of Nagios Enterprises, succeeded by Monitoring::Plugin
@@ -16,6 +16,6 @@ media-sound/logitechmediaserver 7.9.0-r6 7.9.2 7.9.2-r1: Logitech Media server
 net-analyzer/nagios-check_disk_btrfs 2.1.1: Brtfs Monitoring Plugin for Nagios/Icinga
 net-analyzer/nagios-check_unifi 1.0: UniFi Monitoring Plugin for Nagios/Icinga
 net-fs/samba 4.8.6-r3: Samba Suite Version 4
-net-fs/winexe 1.1 1.1-r1 1.2 4.8.6: Winexe Version 4
+net-fs/winexe 1.1 1.1-r1 1.2 4.8.6 4.11.6: Samba Suite Version 4
 net-proxy/dansguardian 2.10.0.3 2.10.0.3-r1 2.12.0.3-r1 2.12.0.3-r2 2.12.0.3-r3: Web content filtering via proxy
 www-apps/coppermine 1.5.46 1.6.04: Web picture gallery written in PHP with a MySQL backend
