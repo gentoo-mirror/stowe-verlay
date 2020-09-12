@@ -18,4 +18,4 @@ net-analyzer/nagios-check_unifi 1.0: UniFi Monitoring Plugin for Nagios/Icinga
 net-fs/samba 4.8.6-r3: Samba Suite Version 4
 net-fs/winexe 1.1 1.1-r1 1.2 4.8.6 4.11.6: Samba Suite Version 4
 net-proxy/dansguardian 2.10.0.3 2.10.0.3-r1 2.12.0.3-r1 2.12.0.3-r2 2.12.0.3-r3: Web content filtering via proxy
-www-apps/coppermine 1.5.46 1.6.04: Web picture gallery written in PHP with a MySQL backend
+www-apps/coppermine 1.5.46 1.6.04 1.6.09: Web picture gallery written in PHP with a MySQL backend
