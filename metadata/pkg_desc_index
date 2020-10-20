@@ -9,7 +9,7 @@ dev-perl/Tie-Persistent 1.00: persistent data structures via tie made easy
 dev-perl/Tie-RegexpHash 0.17: Use regular expressions as hash keys
 dev-python/cloudflare 2.3.1: Python wrapper for the Cloudflare v4 API
 dev-python/jsonlines 1.2.0: Library with helpers for the jsonlines file format
-dev-python/nameparser 0.5.7: nameparser library for Python
+dev-python/nameparser 0.5.7 1.0.6: nameparser library for Python
 dev-python/pyunifi 2.14: Unifi API library for Python
 media-gfx/imagemagick 7.0.8.68: A collection of tools and libraries for many image formats
 media-sound/logitechmediaserver 7.9.0-r6 7.9.2 7.9.2-r1: Logitech Media server
