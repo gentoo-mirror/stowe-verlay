@@ -9,5 +9,5 @@ LICENSE=MIT License
 RDEPEND=|| ( ( dev-lang/python:3.9 dev-python/urllib3[python_targets_python3_9(-),-python_single_target_python3_9(-)] ) ( dev-lang/python:3.8 dev-python/urllib3[python_targets_python3_8(-),-python_single_target_python3_8(-)] ) ( dev-lang/python:3.7 dev-python/urllib3[python_targets_python3_7(-),-python_single_target_python3_7(-)] ) ( >=dev-python/pypy3-7.3.0:0 dev-python/urllib3[python_targets_pypy3(-),-python_single_target_pypy3(-)] ) )
 SLOT=0
 SRC_URI=mirror://pypi/p/pyunifi/pyunifi-2.14.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	0a79a9b53fce4525f438f8ea9695fb88	python-utils-r1	69861348186337fa4b269de5826004b3	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	0a79a9b53fce4525f438f8ea9695fb88	python-utils-r1	41a7dd844b3de07121fe2821bbeea142	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
 _md5_=63b6cfde184b05a6c25a0e25eab618d4
