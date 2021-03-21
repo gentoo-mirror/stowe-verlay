@@ -3,6 +3,7 @@
 
 EAPI=7
 PYTHON_COMPAT=(python{3_7,3_8,3_9})
+DISTUTILS_USE_SETUPTOOLS=rdepend
 
 if [[ ${PV} == 9999* ]]; then
 	EGIT_REPO_URI="https://github.com/certbot/certbot.git"
@@ -21,9 +22,7 @@ HOMEPAGE="https://github.com/certbot/certbot https://letsencrypt.org/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-IUSE=""
 
-CDEPEND=">=dev-python/setuptools-1.0[${PYTHON_USEDEP}]"
 RDEPEND="${CDEPEND}
 	=app-crypt/certbot-${PV%.*}*[${PYTHON_USEDEP}]
 	=app-crypt/acme-${PV%.*}*[${PYTHON_USEDEP}]
@@ -31,4 +30,3 @@ RDEPEND="${CDEPEND}
 	dev-python/zope-interface[${PYTHON_USEDEP}]
 	dev-python/dns-lexicon[${PYTHON_USEDEP}]
 	dev-python/cloudflare[${PYTHON_USEDEP}]"
-DEPEND="${CDEPEND}"
