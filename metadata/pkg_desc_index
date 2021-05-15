@@ -1,5 +1,4 @@
 app-crypt/certbot-dns-cloudflare 1.10.0 1.11.0 1.12.0 1.13.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
-app-emulation/phpvirtualbox 5.2.0 5.2.0-r1 5.2.1 6.1.0: Web-based administration for VirtualBox in PHP
 dev-perl/Audio-Scan 0.930.0 1.01: Fast C metadata and tag reader for all common audio file formats
 dev-perl/Nagios-Plugin 0.990001: Removed from CPAN by request of Nagios Enterprises, succeeded by Monitoring::Plugin
 dev-perl/Network-IPv4Addr 0.05: Perl extension for manipulating IPv4 addresses.
