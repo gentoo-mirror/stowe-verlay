@@ -4,7 +4,8 @@ dev-python/cloudflare 2.3.1: Python wrapper for the Cloudflare v4 API
 dev-python/jsonlines 1.2.0: Library with helpers for the jsonlines file format
 dev-python/nameparser 1.0.6: nameparser library for Python
 dev-python/pyunifi 2.14: Unifi API library for Python
+dev-python/sabyenc 5.4.2: Module providing raw yEnc encoding/decoding for SABnzbd
 media-tv/tautulli 2.10.0: A python based web application for monitoring your Plex Media Server.
 net-analyzer/nagios-check_unifi 1.0: UniFi Monitoring Plugin for Nagios/Icinga
-net-nntp/sabnzbd 3.5.3 3.6.0: Binary newsgrabber with web-interface
+net-nntp/sabnzbd 3.5.3 3.6.0 3.6.0-r1: Binary newsgrabber with web-interface
 www-apps/coppermine 1.6.12 1.6.19: Web picture gallery written in PHP with a MySQL backend
