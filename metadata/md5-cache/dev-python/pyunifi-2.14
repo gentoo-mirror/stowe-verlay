@@ -1,14 +1,15 @@
-BDEPEND=|| ( >=dev-lang/python-3.9.16:3.9 >=dev-lang/python-3.8.16:3.8 >=dev-python/pypy3-7.3.10-r1:0 ) virtual/pkgconfig
-DEFINED_PHASES=prepare setup
-DEPEND=|| ( ( >=dev-lang/python-3.9.16:3.9 dev-python/urllib3[python_targets_python3_9(-)] ) ( >=dev-lang/python-3.8.16:3.8 dev-python/urllib3[python_targets_python3_8(-)] ) ( >=dev-python/pypy3-7.3.10-r1:0 dev-python/urllib3[python_targets_pypy3(-)] ) )
+BDEPEND=python_targets_pypy3? ( >=dev-python/pypy3-7.3.10-r1:0= ) python_targets_python3_8? ( >=dev-lang/python-3.8.16:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.9:3.10 ) virtual/pkgconfig
+DEFINED_PHASES=-
+DEPEND=|| ( ( >=dev-lang/python-3.10.9:3.10 dev-python/urllib3[python_targets_python3_10(-)] ) ( >=dev-lang/python-3.9.16:3.9 dev-python/urllib3[python_targets_python3_9(-)] ) ( >=dev-lang/python-3.8.16:3.8 dev-python/urllib3[python_targets_python3_8(-)] ) ( >=dev-python/pypy3-7.3.10-r1:0 dev-python/urllib3[python_targets_pypy3(-)] ) )
 DESCRIPTION=Unifi API library for Python
 EAPI=7
 HOMEPAGE=https://pypi.org/project/pyunifi/
-INHERIT=python-any-r1
+INHERIT=python-r1
+IUSE=python_targets_pypy3 python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 KEYWORDS=~amd64
 LICENSE=MIT License
-RDEPEND=|| ( ( >=dev-lang/python-3.9.16:3.9 dev-python/urllib3[python_targets_python3_9(-)] ) ( >=dev-lang/python-3.8.16:3.8 dev-python/urllib3[python_targets_python3_8(-)] ) ( >=dev-python/pypy3-7.3.10-r1:0 dev-python/urllib3[python_targets_pypy3(-)] ) )
+RDEPEND=|| ( ( >=dev-lang/python-3.10.9:3.10 dev-python/urllib3[python_targets_python3_10(-)] ) ( >=dev-lang/python-3.9.16:3.9 dev-python/urllib3[python_targets_python3_9(-)] ) ( >=dev-lang/python-3.8.16:3.8 dev-python/urllib3[python_targets_python3_8(-)] ) ( >=dev-python/pypy3-7.3.10-r1:0 dev-python/urllib3[python_targets_pypy3(-)] ) )
 SLOT=0
 SRC_URI=mirror://pypi/p/pyunifi/pyunifi-2.14.tar.gz
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	1d1b325c00c1d24c564a1b49327ec3c5	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29
-_md5_=63b6cfde184b05a6c25a0e25eab618d4
+_eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	1d1b325c00c1d24c564a1b49327ec3c5	python-r1	ca02b49ab4dd44b606c151aa296ef399
+_md5_=e465f5e6e030f2726e028734806da380
