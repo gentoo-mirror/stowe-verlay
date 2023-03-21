@@ -1,4 +1,4 @@
-app-crypt/certbot-dns-cloudflare 1.30.0 1.31.0 1.32.0 2.0.0 2.1.0 2.2.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
+app-crypt/certbot-dns-cloudflare 2.0.0 2.1.0 2.2.0 2.3.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-emulation/phpvirtualbox 6.1.0: Web-based administration for VirtualBox in PHP
 dev-perl/SCGI 0.6: SCGI
 dev-python/cloudflare 2.3.1 2.9.10: Python wrapper for the Cloudflare v4 API
