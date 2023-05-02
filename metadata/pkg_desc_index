@@ -1,8 +1,5 @@
-app-crypt/certbot-dns-cloudflare 2.0.0 2.1.0 2.2.0 2.3.0 2.4.0 2.4.0-r1: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-emulation/phpvirtualbox 6.1.0: Web-based administration for VirtualBox in PHP
 dev-perl/SCGI 0.6: SCGI
-dev-python/cloudflare 2.3.1 2.9.10: Python wrapper for the Cloudflare v4 API
-dev-python/jsonlines 1.2.0 1.2.0-r1: Library with helpers for the jsonlines file format
 dev-python/nameparser 1.0.6 1.0.6-r1: nameparser library for Python
 dev-python/pyunifi 2.14: Unifi API library for Python
 dev-python/sabyenc 5.4.2 5.4.3: Module providing raw yEnc encoding/decoding for SABnzbd
