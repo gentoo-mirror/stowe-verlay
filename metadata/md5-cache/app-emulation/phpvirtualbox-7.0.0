@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=7.0.0
 SRC_URI=https://github.com/tom077/phpvirtualbox/archive/refs/heads/PR1.zip -> phpvirtualbox-7.0.0.zip
 _eclasses_=webapp	de2d3d345b44597c10d7104a7bcdf7b2
-_md5_=98cb6c5f93e0de9384f02ca4428cef71
+_md5_=99ccd269e6bba53f4a2d3d83735bcb09
