@@ -1,0 +1,15 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=app-arch/unzip app-admin/webapp-config
+DESCRIPTION=Web-based administration for VirtualBox in PHP
+EAPI=7
+HOMEPAGE=https://github.com/phpvirtualbox/phpvirtualbox/
+INHERIT=webapp
+IUSE=vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-lang/php[session,unicode,soap,gd] virtual/httpd-php:* app-admin/webapp-config
+RESTRICT=mirror
+SLOT=7.0.0
+SRC_URI=https://github.com/tom077/phpvirtualbox/archive/develop.zip -> phpvirtualbox-7.0.0.zip
+_eclasses_=webapp	de2d3d345b44597c10d7104a7bcdf7b2
+_md5_=c08bf03a80345b8d73227e7368fc17d8
