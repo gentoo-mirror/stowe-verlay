@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-lang/php[session,unicode,soap,gd] virtual/httpd-php:* app-admin/webapp-config
 SLOT=6.1.0
 SRC_URI=https://github.com/phpvirtualbox/phpvirtualbox/archive/develop.zip -> phpvirtualbox-6.1.0.zip
-_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	webapp	de2d3d345b44597c10d7104a7bcdf7b2
+_eclasses_=eapi7-ver	fdf5f7d55543d25f8d31e97d37124a34	webapp	de2d3d345b44597c10d7104a7bcdf7b2
 _md5_=dab65c6ae17c8160722ab0121941202c
