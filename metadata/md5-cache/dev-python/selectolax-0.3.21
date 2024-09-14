@@ -1,14 +1,15 @@
-BDEPEND=python_targets_pypy3? ( dev-python/pypy3:= ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) virtual/pkgconfig
+BDEPEND=cython? ( ~dev-python/cython-0.29.36[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] )
 DEFINED_PHASES=-
-DEPEND=|| ( ( dev-lang/python:3.12 ) ( dev-lang/python:3.11 ) ( dev-lang/python:3.10 ) ( dev-python/pypy3 ) )
-DESCRIPTION=Selectolax HTML Parser
-EAPI=7
-HOMEPAGE=https://pypi.org/project/googlenewsdecoder/
-INHERIT=python-r1
-IUSE=python_targets_pypy3 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
-KEYWORDS=~amd64
-LICENSE=MIT License
-RDEPEND=|| ( ( dev-lang/python:3.12 ) ( dev-lang/python:3.11 ) ( dev-lang/python:3.10 ) ( dev-python/pypy3 ) )
+DESCRIPTION=Fast HTML5 parser with CSS selectors.
+EAPI=8
+HOMEPAGE=https://github.com/rushter/selectolax
+INHERIT=python-r1 pypi
+IUSE=cython python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=cython? ( ~dev-python/cython-0.29.36[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] )
+RESTRICT=test
 SLOT=0
-_eclasses_=out-of-source-utils	a0eb740debe3d472355e8bc52f62e0ac	multibuild	45df57b1877333d70a9e894f6c8fdb3a	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	python-utils-r1	6881b056477c23167d9a6b33e146374e	python-r1	c1fc393cd1e72f093b4838e29d27918c
-_md5_=9c71bc14493de9348662c65403f5f704
+SRC_URI=https://files.pythonhosted.org/packages/source/s/selectolax/selectolax-0.3.21.tar.gz
+_eclasses_=out-of-source-utils	a0eb740debe3d472355e8bc52f62e0ac	multibuild	45df57b1877333d70a9e894f6c8fdb3a	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	python-utils-r1	6881b056477c23167d9a6b33e146374e	python-r1	c1fc393cd1e72f093b4838e29d27918c	pypi	2eecb475512bc76e5ea9192a681b9e6b
+_md5_=506e50c202d3d61013dd5fd90b0e202b

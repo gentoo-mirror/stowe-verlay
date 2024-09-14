@@ -5,7 +5,7 @@ dev-python/googlenewsdecoder 0.1.5: Google News Decoder
 dev-python/nameparser 1.0.6 1.0.6-r1 1.0.6-r2: nameparser library for Python
 dev-python/pyunifi 2.14: Unifi API library for Python
 dev-python/sabyenc 5.4.2 5.4.3: Module providing raw yEnc encoding/decoding for SABnzbd
-dev-python/selectolax 0.3.21: Selectolax HTML Parser
+dev-python/selectolax 0.3.21: Fast HTML5 parser with CSS selectors.
 net-mail/imapsync 2.229 2.229-r1: Tool for incremental and recursive IMAP transfers between mailboxes
 net-nntp/sabnzbd 4.1.0 4.2.2: Binary newsgrabber with web-interface
 net-p2p/rqm 0.1.0 0.1.1 0.1.2: rqm
