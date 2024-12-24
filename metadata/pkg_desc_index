@@ -8,6 +8,6 @@ dev-python/sabyenc 5.4.2 5.4.3: Module providing raw yEnc encoding/decoding for 
 dev-python/selectolax 0.3.21 0.3.24: Fast HTML5 parser with CSS selectors.
 net-analyzer/nagios-check_iping 2.4.6: Official plugins for Nagios
 net-mail/imapsync 2.229-r1 2.290: Tool for incremental and recursive IMAP transfers between mailboxes
-net-nntp/sabnzbd 4.2.2 4.3.3 4.4.0: Binary newsgrabber with web-interface
+net-nntp/sabnzbd 4.3.3 4.4.0 4.4.1: Binary newsgrabber with web-interface
 net-p2p/rqm 0.1.0 0.1.1 0.1.2: rqm
 www-apps/coppermine 1.6.19 1.6.26: Web picture gallery written in PHP with a MySQL backend
