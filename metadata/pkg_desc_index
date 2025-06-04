@@ -3,7 +3,6 @@ app-emulation/phpvirtualbox 7.0.0: Web-based administration for VirtualBox in PH
 dev-perl/SCGI 0.6: SCGI
 dev-python/googlenewsdecoder 0.1.7: Google News Decoder
 dev-python/nameparser 1.1.3: A simple Python module for parsing human names into their individual components.
-dev-python/pyunifi 2.21: Unifi API library for Python
 dev-python/selectolax 0.3.21 0.3.24: Fast HTML5 parser with CSS selectors.
 net-analyzer/nagios-check_iping 2.4.6: Official plugins for Nagios
 net-mail/imapsync 2.229-r1 2.290: Tool for incremental and recursive IMAP transfers between mailboxes
