@@ -1,6 +1,6 @@
 app-crypt/tyan-bmc-cert 0.1.0: tyan-bmc-cert
 app-emulation/libvirt 11.6.0-r2 11.8.0-r1: C toolkit to manipulate virtual machines
-app-emulation/phpvirtualbox 7.0.0 7.1.1 7.2.0: Web-based administration for VirtualBox in PHP
+app-emulation/phpvirtualbox 7.0.0 7.1.1 7.2.1: Web-based administration for VirtualBox in PHP
 dev-perl/SCGI 0.6: SCGI
 dev-python/googlenewsdecoder 0.1.7: Google News Decoder
 dev-python/nameparser 1.1.3: A simple Python module for parsing human names into their individual components.
